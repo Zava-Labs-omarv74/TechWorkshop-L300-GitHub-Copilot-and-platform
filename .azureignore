@@ -1,0 +1,36 @@
+# Ignore documentation and planning files
+.azure/
+docs/
+media/
+*.md
+README*
+
+# Ignore development files
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+.DS_Store
+Thumbs.db
+
+# Ignore git files
+.git/
+.gitignore
+.gitattributes
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore security files
+*.pfx
+*.p12
+*.key
+*.pem
